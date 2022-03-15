@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * more headers goes there
+ * main - Prints a text according number
  *
- * last digit printing function
-*/
+ * Return: Always (Success)
+ */
 int main(void)
 {
 	int n;
