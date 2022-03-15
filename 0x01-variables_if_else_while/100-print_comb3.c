@@ -13,13 +13,15 @@ int main(void)
 
 	for (c = '0'; c < '9'; c++)
 	{
-		for (i = i + 1; i <= '9'; i++)
+		for (i = c + 1; i <= '9'; i++)
 		{
 			putchar(c);
 			putchar(i);
 
 			if ((c != '9') || (c == '9' && i != '9'))
 			{
+				if (c == 8 && i == 9)
+					continue;
 				putchar(',');
 				putchar(' ');
 			}
