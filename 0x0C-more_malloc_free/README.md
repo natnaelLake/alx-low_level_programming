@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C - More malloc, free In this project, I learned about using exit, calloc, and realloc in C.
 
 Tests heavy_check_mark tests: Folder of test files. Provided by Holberton School. Header File file_folder main.h: Header file containing prototypes for all functions written in the project. File Prototype 0-malloc_checked.c void *malloc_checked(unsigned int b); 1-string_nconcat.c char *string_nconcat(char *s1, char *s2, unsigned int n); 2-calloc.c char *string_nconcat(char *s1, char *s2, unsigned int n); 3-array_range.c int *array_range(int min, int max); 100-realloc.c void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size); Tasks page_with_curl 0. Trust no one
@@ -20,3 +21,6 @@ Footer
 Footer navigation
 Terms
 
+=======
+alx-low_level_programming
+>>>>>>> 8f6daffb49c2255803eceaba7cdd31b10d5dc55d
